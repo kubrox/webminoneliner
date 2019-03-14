@@ -10,8 +10,17 @@ Webmin is a web-based interface for system administration for Unix. Using any mo
 ## Usage
 
 * SSH into server
+~~~~
+ssh me@yourmum.server
+~~~~
 * Run the command
+~~~~
+echo "deb http://download.webmin.com/download/repository sarge contrib" | sudo tee -a /etc/apt/sources.list && wget http://www.webmin.com/jcameron-key.asc && sudo apt-key add jcameron-key.asc && sudo apt-get update && sudo apt-get install webmin -y
+~~~~
 * Logon to Webmin
+~~~~
+https://yourmum.server:10000
+~~~~
 
 ## Why did you create this?
 

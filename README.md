@@ -9,27 +9,32 @@ Webmin is a web-based interface for system administration for Unix. Using any mo
 
 ## Usage
 
-* SSH into server
+SSH into server
 ~~~~
 ssh me@yourmum.server
 ~~~~
-* Run the command
+Run the command
 ~~~~
 echo "deb http://download.webmin.com/download/repository sarge contrib" | sudo tee -a /etc/apt/sources.list && wget http://www.webmin.com/jcameron-key.asc && sudo apt-key add jcameron-key.asc && sudo apt-get update && sudo apt-get install webmin -y
 ~~~~
-* Logon to Webmin
+Logon to Webmin
 ~~~~
 https://yourmum.server:10000
 ~~~~
 
-## Why did you create this?
+### Why did you create this?
 
 It has lived in a text file for years so thought I'd put it up on here. As you can see, it's very complex
 
-## Will this change my life?
+### Will this change my life?
 
 Yes.
 
-## Will it break anything?
+### Will it break anything?
 
 Dunno.
+
+### Todo
+
+Convert to a bash script that can be piped (controversial)
+Support for other Linux operating systems

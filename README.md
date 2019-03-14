@@ -36,5 +36,5 @@ Dunno.
 
 ### Todo
 
-Convert to a bash script that can be piped (controversial).
-Support for other Linux operating systems.
+* Convert to a bash script that can be piped (controversial).
+* Support for other Linux operating systems.

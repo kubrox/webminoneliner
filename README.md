@@ -13,9 +13,9 @@ Webmin is a web-based interface for system administration for Unix. Using any mo
 * Run the command
 * Logon to Webmin
 
-## command
+## Why did you create this?
 
-echo "deb http://download.webmin.com/download/repository sarge contrib" | sudo tee -a /etc/apt/sources.list && wget http://www.webmin.com/jcameron-key.asc && sudo apt-key add jcameron-key.asc && sudo apt-get update && sudo apt-get install webmin -y
+It has lived in a text file for years so thought I'd put it up on here. As you can see, it's very complex
 
 ## Will this change my life?
 

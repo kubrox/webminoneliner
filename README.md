@@ -1,5 +1,5 @@
 # Webmin Oneliner
-One liner to install Webmin on Ubuntu based servers
+One liner to install Webmin on Ubuntu based servers.
 
 ## What is Webmin?
 
@@ -24,7 +24,7 @@ https://yourmum.server:10000
 
 ### Why did you create this?
 
-It has lived in a text file for years so thought I'd put it up on here. As you can see, it's very complex
+It has lived in a text file for years so thought I'd put it up on here. As you can see, it's very complex.
 
 ### Will this change my life?
 
@@ -36,5 +36,5 @@ Dunno.
 
 ### Todo
 
-Convert to a bash script that can be piped (controversial)
-Support for other Linux operating systems
+Convert to a bash script that can be piped (controversial).
+Support for other Linux operating systems.
